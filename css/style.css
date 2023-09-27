@@ -241,3 +241,141 @@ a {
     line-height: normal;
     cursor: pointer;
 }
+
+
+.sellers {}
+
+.sellers-title {}
+
+.section-title {}
+
+.sellers-title-color {}
+
+.sellers-list {}
+
+.sellers-item {}
+
+.sellers-img {}
+
+.sellers-subtitle {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.33;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+
+
+.loved {}
+
+.loved-title {}
+
+.section-title {}
+
+.loved-title-color {}
+
+.loved-list {}
+
+.loved-item {}
+
+.loved-img {}
+
+.loved-subtitle {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.33;
+}
+
+.loved-item-text {
+    color: rgba(17, 17, 17, 0.70);
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+}
+
+.loved-btn {
+    color: #111;
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+    border: 1px solid #FD9222;
+}
+.loved-btn:hover, .loved-btn:focus {
+    color: #FFF;
+    background-color: #FD9222;
+}
+
+
+.footer {
+    background-color: #1E1823;
+}
+
+.footer-text {
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.21;
+    letter-spacing: -0.02em;
+}
+
+.footer-text span{
+    color: #FD9222;
+}
+
+.footer-subtitle {
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.29;
+}
+
+.footer-soc-list {}
+
+.footer-soc-item {}
+
+.footer-soc-link {
+    color: #FFF;
+}
+.footer-soc-link:hover, .footer-soc-link:focus {
+    color: #FD9222;
+}
+.footer-adress {}
+
+.footer-adress-list {}
+
+.footer-adress-item {}
+
+.footer-adress-link {
+    color: #FFF;
+    text-align: center;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+}
+.footer-adress-link:hover, .footer-adress-link:focus {
+    color: #FD9222;
+}
+
+.footer-nav {}
+
+.footer-nav-list {}
+
+.footer-nav-item {}
+
+.footer-nav-link {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+}
+
+.footer-nav-link:hover, .footer-nav-link:focus {
+    color: #FD9222;
+}

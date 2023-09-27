@@ -17,7 +17,7 @@
     <title>SimplyChocolate</title>
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="header">
       <nav class="header-nav">
         <a href="./index.html" class="header-logo">
           <span class="header-logo-italic">SIMPLY</span> CHOCOLATE
@@ -79,7 +79,7 @@
         </h1>
         <button type="button" class="hero-btn">Buy now</button>
         <a href="#how-its-made" class="hero-btn-link">How it’s made</a>
-        <a href="" class="hero-btn-down">scroll down</a>
+        <a href="#footer" class="hero-btn-down">scroll down</a>
       </section>
       <section class="features">
         <h2 class="visually-hidden">Features</h2>
@@ -345,110 +345,154 @@
         <h2 class="sellers-title section-title">
           <span class="sellers-title-color">Top</span> sellers
         </h2>
-        <ul>
-          <li>
+        <ul class="sellers-list">
+          <li class="sellers-item">
             <img
               src="./images/sellers-1.jpg"
               alt="CHOCOLATE WITH NUTS"
               width="368"
               height="464"
+              class="sellers-img"
             />
-            <h3>CHOCOLATE WITH NUTS</h3>
+            <h3 class="sellers-subtitle">CHOCOLATE WITH NUTS</h3>
           </li>
-          <li>
+          <li class="sellers-item">
             <img
               src="./images/sellers-2.jpg"
               alt="CHOCOLATE WITH FRUITS"
               width="368"
               height="464"
+              class="sellers-img"
             />
-            <h3>CHOCOLATE WITH FRUITS</h3>
+            <h3 class="sellers-subtitle">CHOCOLATE WITH FRUITS</h3>
           </li>
-          <li>
+          <li class="sellers-item">
             <img
               src="./images/sellers-3.jpg"
               alt="DARK CHOCOLATE"
               width="368"
               height="464"
+              class="sellers-img"
             />
-            <h3>DARK CHOCOLATE</h3>
+            <h3 class="sellers-subtitle">DARK CHOCOLATE</h3>
           </li>
         </ul>
       </section>
-      <section>
-        <h2 id="chocolate-is-loved">Chocolate is loved</h2>
-        <ul>
-          <li>
+      <section class="loved">
+        <h2 id="chocolate-is-loved" class="loved-title section-title">
+          <span class="loved-title-color">Chocolate</span> is loved
+        </h2>
+        <ul class="loved-list">
+          <li class="loved-item">
             <img
               src="./images/loved-1.jpg"
               alt="Victoria Dobrzhanska"
               width="80"
               height="80"
+              class="loved-img"
             />
-            <h3>Victoria Dobrzhanska</h3>
-            <p>
+            <h3 class="loved-subtitle">Victoria Dobrzhanska</h3>
+            <p class="loved-item-text">
               I love this chocolate bar. Perfect combination of light crispy
               wafer, covered in a thin layer chocolate.
             </p>
           </li>
-          <li>
+          <li class="loved-item">
             <img
               src="./images/loved-2.jpg"
               alt="Nazar Babenko"
               width="80"
               height="80"
+              class="loved-img"
             />
-            <h3>Nazar Babenko</h3>
-            <p>
+            <h3 class="loved-subtitle">Nazar Babenko</h3>
+            <p class="loved-item-text">
               This chocolate confection is a delight! A delight! The wafer is
               light and crisp, the hazelnut cream is smooth, and the chocolate
               is good.
             </p>
           </li>
-          <li>
+          <li class="loved-item">
             <img
               src="./images/loved-3.jpg"
               alt="Olena Kampusch"
               width="80"
               height="80"
+              class="loved-img"
             />
-            <h3>Olena Kampusch</h3>
-            <p>
+            <h3 class="loved-subtitle">Olena Kampusch</h3>
+            <p class="loved-item-text">
               Chocolate is a family favourite treat. Love the delicious smooth
               chocolate and the creaminess inside. The wafer is soft but
               crunchy.
             </p>
           </li>
         </ul>
-        <button type="button">Leave a review</button>
+        <button type="button" class="loved-btn">Leave a review</button>
       </section>
     </main>
-    <footer>
-      <p>Chocolate a delicious cure for a bad day</p>
-      <p>Social networks</p>
-      <ul>
-        <li>
-          <a href="" target="_blank" rel="noopener noreferrer">instagram</a>
+    <footer class="footer" id="footer">
+      <p class="footer-text">
+        <span>Chocolate</span> a delicious cure for a bad day
+      </p>
+      <p class="footer-subtitle">Social networks</p>
+      <ul class="footer-soc-list">
+        <li class="footer-soc-item">
+          <a
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+            class="footer-soc-link"
+            >instagram</a
+          >
         </li>
-        <li>
-          <a href="" target="_blank" rel="noopener noreferrer">facebook</a>
+        <li class="footer-soc-item">
+          <a
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+            class="footer-soc-link"
+            >facebook</a
+          >
         </li>
-        <li><a href="" target="_blank" rel="noopener noreferrer">twiter</a></li>
+        <li class="footer-soc-item">
+          <a
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+            class="footer-soc-link"
+            >twiter</a
+          >
+        </li>
       </ul>
-      <p>Contact us</p>
-      <address>
-        <ul>
-          <li><a href="tel:+380684439426">+380 (68) 443-94-26</a></li>
-          <li>
-            <a href="mailto:simplychoc@gmail.com">simplychoc@gmail.com</a>
+      <p class="footer-subtitle">Contact us</p>
+      <address class="footer-adress">
+        <ul class="footer-adress-list">
+          <li class="footer-adress-item">
+            <a class="footer-adress-link" href="tel:+380684439426"
+              >+380 (68) 443-94-26</a
+            >
+          </li>
+          <li class="footer-adress-item">
+            <a class="footer-adress-link" href="mailto:simplychoc@gmail.com"
+              >simplychoc@gmail.com</a
+            >
           </li>
         </ul>
       </address>
-      <nav>
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="#how-its-made">How it’s made?</a></li>
-          <li><a href="#chocolate-is-loved">Chocolate is loved</a></li>
+      <nav class="footer-nav">
+        <ul class="footer-nav-list">
+          <li class="footer-nav-item">
+            <a class="footer-nav-link" href="#header">Home</a>
+          </li>
+          <li class="footer-nav-item">
+            <a class="footer-nav-link" href="#how-its-made">How it’s made?</a>
+          </li>
+          <li class="footer-nav-item">
+            <a class="footer-nav-link" href="#chocolate-is-loved"
+              >Chocolate is loved</a
+            >
+          </li>
         </ul>
       </nav>
     </footer>
